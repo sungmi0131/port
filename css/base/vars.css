@@ -1,0 +1,25 @@
+:root {
+    --main-font-ko: 'Pretendard';
+    --main-font-eg: 'brush';
+    --white: #fff;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: var(--main-font-ko), sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--main-font-eg);
+}
+
+h2 {
+    font-size: 100px;
+    color: #d0ff60;
+}

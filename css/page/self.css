@@ -1,0 +1,197 @@
+#self {
+  width: 100%;
+  margin: 0 auto;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+  align-items: center;
+  background-color: #000;
+  color: #FFF;
+}
+#self .left,
+#self .center,
+#self .right {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+#self .left h2,
+#self .center h2,
+#self .right h2 {
+  color: #d0ff60;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+#self .left P,
+#self .center P,
+#self .right P {
+  font-size: 20PX;
+  line-height: 30px;
+}
+#self .left ul,
+#self .center ul,
+#self .right ul {
+  line-height: 20px;
+}
+#self .center img {
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+#self .skills .skill-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+#self .skills .skill-icons .skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #d0ff60;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+#self .skills .skill-icons .html {
+  border-color: #F16529;
+}
+#self .skills .skill-icons .html:hover {
+  background-color: #F16529;
+  color: #000;
+}
+#self .skills .skill-icons .css {
+  border-color: #2965F1;
+}
+#self .skills .skill-icons .css:hover {
+  background-color: #2965F1;
+  color: #fff;
+}
+#self .skills .skill-icons .js {
+  border-color: #F7DF1E;
+}
+#self .skills .skill-icons .js:hover {
+  background-color: #F7DF1E;
+  color: #000;
+}
+#self .skills .skill-icons .ai {
+  border-color: #FF9A00;
+}
+#self .skills .skill-icons .ai:hover {
+  background-color: #FF9A00;
+  color: #000;
+}
+#self .skills .skill-icons .ps {
+  border-color: #31A8FF;
+}
+#self .skills .skill-icons .ps:hover {
+  background-color: #31A8FF;
+  color: #fff;
+}
+#self .skills .skill-icons .figma {
+  border-color: #0ACF83;
+}
+#self .skills .skill-icons .figma:hover {
+  background-color: #0ACF83;
+  color: #000;
+}
+#self .skills .skill-icons .jq {
+  border-color: #0769AD;
+}
+#self .skills .skill-icons .jq:hover {
+  background-color: #0769AD;
+  color: #fff;
+}
+#self .skills .skill-icons .pr {
+  border-color: #9063B4;
+}
+#self .skills .skill-icons .pr:hover {
+  background-color: #9063B4;
+  color: #000;
+}
+#self .skills .skill-icons .ae {
+  border-color: #9A6AFF;
+}
+#self .skills .skill-icons .ae:hover {
+  background-color: #9A6AFF;
+  color: #000;
+}
+
+.about__career {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: #000;
+  color: #fff;
+}
+.about__career h2 {
+  color: #d0ff60;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.about__career P {
+  font-size: 20PX;
+  line-height: 30px;
+}
+.about__career ul {
+  line-height: 30px;
+}
+.about__career .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.about__career .left .education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.about__career .right {
+  flex: 1;
+}
+.about__career .right h2 {
+  color: #d0ff60;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about__career .right .career__section {
+  margin-bottom: 30px;
+  border-left: 2px solid #444;
+  padding-left: 15px;
+  text-align: center;
+}
+.about__career .right .date {
+  color: #ccc;
+  margin: 20px;
+}
+.about__career .right .name {
+  color: #fff;
+  margin: 20px;
+}
+.about__career .right .org {
+  color: #aaa;
+  margin: 20px;
+}
+.about__career .career__header,
+.about__career .career__item {
+  display: grid;
+  grid-template-columns: 60px 120px 1fr 1fr;
+  gap: 10px;
+  padding: 5px 0;
+}
+.about__career .career__header .title,
+.about__career .career__item .title {
+  font-weight: bold;
+  color: #d0ff60;
+  margin: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Section</title>
+    <link rel="stylesheet" href="coding.css">
+</head>
+
+<body>
+    <section class="coding">
+        <!-- 상단 버튼 -->
+        <h2 class="coding-title">PROJECT</h2>
+
+        <!-- 오른쪽 위 -->
+        <div class="coding-item renewal hidden">
+            <span class="coding__sp">브랜드 스토리와 스타일을 새롭게 엮은 MARSHALL REDESIGN</span>
+            <a href="#"><h3>WEB SITE RENEWAL</h3></a>
+            <p>브랜드 스토리와 스타일을 새롭게 엮은 MARSHALL REDESIGN</p>
+        </div>
+
+        <!-- 왼쪽 중간 -->
+        <div class="coding-item musign hidden">
+            <span class="coding__sp">모든 문화 콘텐츠를 모아
+                맞춤형 추천으로 최적의 문화생활을 제공하는 통합 플랫폼 앱을 기획했습니다.</span>
+            <a href="#"><h3>APP PLANNING</h3></a>
+            <p>모든 문화 콘텐츠를 모아 맞춤형 추천으로
+                최적의 문화생활을 제공하는 통합 플랫폼 앱을 기획했습니다.</p>
+        </div>
+
+
+        <div class="coding-item xstudio hidden">
+            <span class="coding__sp">IDENTIITY 분석 후 심볼디자인을 디자인했습니다.</span>
+            <a href="#">
+                <h3>LOGO DESIGN</h3>
+            </a>
+            <p>IDENTIITY 분석 후 심볼디자인을 디자인했습니다.</p>
+        </div>
+    </section>
+
+</body>
+
+<script>
+    const items = document.querySelectorAll(".coding-item");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                // 좌우 구분해서 등장
+                if (entry.target.classList.contains("renewal")) {
+                    entry.target.classList.add("show-right");
+                } else {
+                    entry.target.classList.add("show-left");
+                }
+            }
+        });
+    }, { threshold: 0.4 });
+
+    items.forEach((item) => observer.observe(item));
+
+</script>
+
+</html>

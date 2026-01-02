@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*setting*/
+@import url(./css/base/reset.css);
+@import url(./css/base/vars.css);
+
+
+
+@import url(./css/page/header.css);
+@import url(./css/page/home.css);
+@import url(./css/page/flow.css);
+@import url(./css/page/about.css);
+@import url(./css/page/self.css);
+@import url(./css/page/skill.css);
+@import url(./css/page/best.css);
+@import url(./css/page/worklist.css);
+@import url(./css/page/project.css);
+@import url(./css/page/footer.css);
+/* @import url(./css/page/work.css); * */
+
+

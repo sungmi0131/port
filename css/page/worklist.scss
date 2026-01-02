@@ -1,0 +1,113 @@
+  #work-list {
+      background-color: #fff;
+      width: 100%;
+      margin: 0 auto;
+
+
+      .work-inner {
+          max-width: 1400px;
+          min-height: 100vh;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+
+          .work-title {
+              width: 100%;
+              margin: 4% 2%;
+              color: #000;
+              word-break: keep-all;
+              line-height: 2;
+
+              h2 {
+                  color: #000;
+                  font-size: 60px;
+              }
+
+              p {
+                  font-size: 18px;
+              }
+          }
+
+
+          .work-contents {
+              display: flex;
+              gap: 20px;
+              flex-wrap: nowrap;
+              justify-content: center;
+              width: 100%;
+
+              padding: 4% 0;
+
+              .list {
+                  position: relative;
+                  width: 340px;
+                  border-radius: 12px;
+                  overflow: hidden;
+                  cursor: pointer;
+                  transition: transform 0.3s;
+
+                  img {
+                      width: 100%;
+                      object-fit: cover;
+                      cursor: pointer;
+                      border-radius: 12px;
+                  }
+
+                  &:hover .arrow {
+                      right: 15px;
+                  }
+
+                  &:hover {
+                      transform: translateY(-5px);
+
+                      img {
+                          filter: opacity(30%);
+                      }
+                  }
+
+                  .card-content {
+                      padding: 15px;
+                      background: #fff;
+                      word-break: keep-all;
+                      background-color: #fffef7;
+                      border: 1px dotted #000;
+                      text-align: center;
+                      height: 40%;
+
+
+                      h3 {
+                          margin: 10px 0 20px 0;
+                          font-size: 26px;
+                      }
+
+                      p {
+                          font-size: 16px;
+                          color: #555;
+                          line-height: 1.6;
+                      }
+                  }
+              }
+          }
+
+          /* 화살표 */
+          .arrow {
+              position: absolute;
+              right: -50px;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 50px;
+              height: 50px;
+              background: black;
+              color: white;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-weight: bold;
+              transition: right 0.3s;
+          }
+      }
+  }

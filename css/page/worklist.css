@@ -1,0 +1,96 @@
+@charset "UTF-8";
+#work-list {
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+#work-list .work-inner {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* 화살표 */
+}
+#work-list .work-inner .work-title {
+  width: 100%;
+  margin: 4% 2%;
+  color: #000;
+  word-break: keep-all;
+  line-height: 2;
+}
+#work-list .work-inner .work-title h2 {
+  color: #000;
+  font-size: 60px;
+}
+#work-list .work-inner .work-title p {
+  font-size: 18px;
+}
+#work-list .work-inner .work-contents {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  padding: 4% 0;
+}
+#work-list .work-inner .work-contents .list {
+  position: relative;
+  width: 340px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+#work-list .work-inner .work-contents .list img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-radius: 12px;
+}
+#work-list .work-inner .work-contents .list:hover .arrow {
+  right: 15px;
+}
+#work-list .work-inner .work-contents .list:hover {
+  transform: translateY(-5px);
+}
+#work-list .work-inner .work-contents .list:hover img {
+  filter: opacity(30%);
+}
+#work-list .work-inner .work-contents .list .card-content {
+  padding: 15px;
+  background: #fff;
+  word-break: keep-all;
+  background-color: #fffef7;
+  border: 1px dotted #000;
+  text-align: center;
+  height: 40%;
+}
+#work-list .work-inner .work-contents .list .card-content h3 {
+  margin: 10px 0 20px 0;
+  font-size: 26px;
+}
+#work-list .work-inner .work-contents .list .card-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+#work-list .work-inner .arrow {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: right 0.3s;
+}

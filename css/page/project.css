@@ -1,0 +1,142 @@
+#project {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #000;
+}
+#project .wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 100px 0;
+}
+#project .wrap .wrap__boxs {
+  display: flex;
+  gap: 80px;
+  animation: scroll-left 100s linear infinite;
+  width: -moz-max-content;
+  width: max-content;
+}
+#project .wrap .wrap__boxs .wrap__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+#project .wrap .wrap__boxs .wrap__item span {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ff4b00;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+#project .project-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+}
+#project .project-inner .text-area {
+  width: 30%;
+  height: 20vh;
+  position: relative;
+  padding: 40px;
+}
+#project .project-inner .text-area h2 {
+  font-size: 20px;
+  color: #ff4b00;
+  margin-bottom: 8px;
+}
+#project .project-inner .text-area h1 {
+  font-size: 34px;
+  color: #ff4b00;
+  margin-bottom: 25px;
+}
+#project .project-inner .text-area .arrow-area {
+  width: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#project .project-inner .text-area .arrow-area img {
+  width: 50%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+#project .project-inner .text-area .arrow-area .swiper-pagination {
+  color: #ff4b00;
+  top: 45%;
+  font-size: 15px;
+}
+#project .project-inner .swiper {
+  overflow: hidden;
+  width: 70%;
+}
+#project .project-inner .swiper .swiper-wrapper {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide {
+  width: 200px;
+  height: 560px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide:hover .arrow {
+  right: 20px;
+  opacity: 1;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide:hover {
+  transform: translateY(-5px);
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide .card-content {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide .card-content h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide .card-content p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+#project .project-inner .swiper .swiper-wrapper .swiper-slide .arrow {
+  position: absolute;
+  bottom: 20px;
+  right: -40px;
+  font-size: 50px;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+#project .project-inner .swiper .swiper-wrapper .blue {
+  background: linear-gradient(10deg, #3388ff, #6f4bff);
+}
+#project .project-inner .swiper .swiper-wrapper .red {
+  background: linear-gradient(10deg, #f54949, #cc0000);
+}
+#project .project-inner .swiper .swiper-wrapper .purple {
+  background: linear-gradient(10deg, #b76bff, #8058ff);
+}

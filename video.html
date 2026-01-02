@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/page/video.css">
+</head>
+
+<body>
+    <section id="video">
+        <div class="container">
+            <div class="project__title">
+                <img src="./image/노란토끼.png" alt="">
+                <h2 class="title">
+                    SUNGMI`S <br />
+                    <span class="highlight">VIDEO PROJECT</span><span class="asterisk">*</span>
+                </h2>
+                <p class="description">
+                    웹 구현에 필요한 퍼블리싱 기술을 익히고, 실제로 적용해본 결과물입니다.</br>
+                    HTML, CSS, JavaScript를 중심으로 인터랙션, 반응형, 모션 등을 실습하며</br>
+                    시각적 완성도와 사용자 경험의 균형을 고민했습니다.
+                </p>
+            </div>
+
+            <ul class="reasons__list">
+                <li>
+                    <span class="num">01</span>
+                    <div class="reason__content">
+                        <h3>PORTFOLIO PROCESS</h3>
+                        <p>사용자 경험과 프로젝트 목표를 고려해 아이디어를 구상하고, 전체적인 흐름과 구조를 설계한 과정입니다.</br>
+                            컨셉 정립부터 정보 구조, 화면 구성까지 체계적으로 계획하며 프로젝트의 방향성을 명확히 했습니다.</p>
+                        <button class="btn-next">→</button>
+                    </div>
+                    <div class="card">
+                        <img src="./image/노란토끼 반대.png" alt="UI/UX Design" />
+                    </div>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <div class="reason__content">
+                        <h3>PROJECT</h3>
+                        <p>다양한 프로젝트를 통해 기획부터 디자인, 실행까지 전 과정을 경험했습니다.</br>
+                            앱, 웹사이트 리뉴얼, 심볼 디자인 등 실무와 유사한 프로젝트를 진행하며 문제 해결 능력과 창의적 사고를 강화했습니다.
+                        </p>
+                        <a href="project.html"><button class="btn-next">→</button></a>
+                    </div>
+                    <div class="card">
+                        <img src="./image/노란토끼 반대.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <div class="reason__content">
+                        <h3>CODING WORKS</h3>
+                        <p>
+                            웹 구현에 필요한 퍼블리싱 기술을 익히고, 실제로 적용해본 결과물입니다.</br>
+                            HTML, CSS, JavaScript를 중심으로 인터랙션, 반응형, 모션 등을 실습하며</br>
+                            시각적 완성도와 사용자 경험의 균형을 고민했습니다.
+                        </p>
+                        <a href="coding.html"><button class="btn-next">→</button></a>
+                    </div>
+                    <div class="card">
+                        <img src="./image/project-app.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <div class="reason__content">
+                        <h3>DESIGN</h3>
+                        <p>시각적 메시지 전달과 브랜딩을 고려한 디자인 작업입니다. </br>
+                            포토샵과 일러스트를 활용해 UI 요소, 아이콘, 심볼 등 다양한 그래픽을 제작하며 세부적인 완성도와 일관성을 높였습니다.
+                        </p>
+                        <a href="design.html"><button class="btn-next">→</button></a>
+                    </div>
+                    <div class="card">
+                        <img src="./image/노란토끼 반대.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <div class="reason__content">
+                        <h3>VIDEO</h3>
+                        <p>영상 편집과 연출을 통해 스토리텔링과 시각적 경험을 구현한 작업물입니다. </br>
+                            촬영, 편집, 모션 그래픽 등 영상 제작 전반을 직접 진행하며 표현력과 기술적 완성도를 함께 다졌습니다.</p>
+                        <button class="btn-next">→</button>
+                    </div>
+                    <div class="card">
+                        <img src="./image/노란토끼 반대.png" alt="" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script>
+
+        document.querySelectorAll(".reasons__list li").forEach((item) => {
+            const card = item.querySelector(".card");
+            if (!card) return;
+
+            item.addEventListener("mouseenter", () => {
+                card.style.opacity = "1";
+                card.style.transform = "scale(1)";
+            });
+
+            item.addEventListener("mousemove", (e) => {
+                const rect = item.getBoundingClientRect(); // li 위치 기준
+                const x = e.clientX - rect.left + 5; // li 안에서 10px 띄우기
+                const y = e.clientY - rect.top + 5;
+                card.style.left = x + "px";
+                card.style.top = y + "px";
+            });
+
+            item.addEventListener("mouseleave", () => {
+                card.style.opacity = "0";
+                card.style.transform = "scale(0.8)";
+            });
+        });
+
+    </script>
+</body>
+
+</html>

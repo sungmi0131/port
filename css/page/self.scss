@@ -1,0 +1,234 @@
+#self {
+    width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+
+    .left,
+    .center,
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+
+        h2 {
+            color: #d0ff60;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        P {
+            font-size: 20PX;
+            line-height: 30px;
+        }
+
+        ul {
+            line-height: 20px;
+        }
+    }
+
+    .center img {
+        border: 1px solid #000;
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .skills {
+        .skill-icons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+
+            .skill {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 100px;
+                border: 2px solid #d0ff60;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 20px;
+                transition: all 0.3s ease;
+                cursor: default;
+            }
+
+            .html {
+                border-color: #F16529;
+
+                &:hover {
+                    background-color: #F16529;
+                    color: #000;
+                }
+            }
+
+            .css {
+                border-color: #2965F1;
+
+                &:hover {
+                    background-color: #2965F1;
+                    color: #fff;
+                }
+            }
+
+            .js {
+                border-color: #F7DF1E;
+
+                &:hover {
+                    background-color: #F7DF1E;
+                    color: #000;
+                }
+
+            }
+
+            .ai {
+                border-color: #FF9A00;
+
+                &:hover {
+                    background-color: #FF9A00;
+                    color: #000;
+                }
+            }
+
+            .ps {
+                border-color: #31A8FF;
+
+                &:hover {
+                    background-color: #31A8FF;
+                    color: #fff;
+                }
+            }
+
+            .figma {
+                border-color: #0ACF83;
+
+                &:hover {
+                    background-color: #0ACF83;
+                    color: #000;
+                }
+            }
+
+            .jq {
+                border-color: #0769AD;
+
+                &:hover {
+                    background-color: #0769AD;
+                    color: #fff;
+                }
+            }
+
+            .pr {
+                border-color: #9063B4;
+
+                &:hover {
+                    background-color: #9063B4;
+                    color: #000;
+                }
+            }
+
+            .ae {
+                border-color: #9A6AFF;
+
+                &:hover {
+                    background-color: #9A6AFF;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+
+.about__career {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #000;
+    color: #fff;
+
+    h2 {
+        color: #d0ff60;
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    P {
+        font-size: 20PX;
+        line-height: 30px;
+    }
+
+    ul {
+        line-height: 30px;
+    }
+
+
+    .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+
+        .education ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .right {
+        flex: 1;
+
+        h2 {
+            color: #d0ff60;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .career__section {
+            margin-bottom: 30px;
+            border-left: 2px solid #444;
+            padding-left: 15px;
+            text-align: center;
+        }
+
+        .date {
+            color: #ccc;
+            margin: 20px;
+        }
+
+        .name {
+            color: #fff;
+             margin: 20px;
+        }
+
+        .org {
+            color: #aaa;
+             margin: 20px;
+        }
+    }
+
+
+    .career__header,
+    .career__item {
+        display: grid;
+        grid-template-columns: 60px 120px 1fr 1fr;
+        gap: 10px;
+        padding: 5px 0;
+
+        .title {
+            font-weight: bold;
+            color: #d0ff60;
+             margin: 10px;
+        }
+    }
+}

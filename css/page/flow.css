@@ -1,0 +1,21 @@
+.flow {
+  background: #000;
+  width: 100%;
+  overflow: hidden;
+}
+.flow .flow__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.flow .flow__text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #0f0;
+}

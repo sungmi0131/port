@@ -1,0 +1,23 @@
+#home {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#home .title {
+  color: #d0ff60;
+  position: relative;
+}
+#home .title img {
+  position: absolute;
+  top: 60%;
+  right: -10%;
+  transform: translate(20%, -40%);
+}
+#home .title h1 {
+  font-size: 100px;
+}

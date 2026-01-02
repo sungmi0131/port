@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/page/design.css">
+</head>
+
+<body>
+    <section></section>
+    <section id="design">
+        <h2>
+            design
+        </h2>
+        <div class="design__wrap">
+            <article class="design__item">
+                <span class="num">01/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design1"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">02/10</span>
+                <a href="#"><img src="/portfolio/image/2.jpg" alt="design2"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">03/10</span>
+                <a href="#"><img src="/portfolio/image/3.jpg" alt="design3"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">04/10</span>
+                <a href="#"><img src="/portfolio/image/4.jpg" alt="design4"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">05/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design5"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">06/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design6"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">07/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design7"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">08/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design8"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">09/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design9"></a>
+            </article>
+
+            <article class="design__item">
+                <span class="num">10/10</span>
+                <a href="#"><img src="/portfolio/image/1.jpg" alt="design10"></a>
+            </article>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+
+    <script>
+        const articles = gsap.utils.toArray('.design__item')
+        gsap.to(articles, {
+            xPercent: -100 * (articles.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: '#design',
+                start: 'top top',
+                end: '+=3000',
+                pin: true,
+                scrub: 1,
+                snap: "none"
+            }
+
+        }
+
+        )
+    </script>
+</body>
+
+</html>
