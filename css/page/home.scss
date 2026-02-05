@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-color: #000;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,16 +10,21 @@
 
 
     .title {
-        color: #d0ff60;
+        color: #215DFF;
         position: relative;
-        img{
+
+        img {
             position: absolute;
             top: 60%;
             right: -10%;
-            transform: translate(20%,-40%);
+            transform: translate(20%, -40%);
         }
-        h1 {
-            font-size: 100px;
+
+      ul{
+        li{
+            font-size: 180px;
+            font-weight: 600;
         }
+      }
     }
 }

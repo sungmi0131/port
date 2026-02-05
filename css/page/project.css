@@ -29,7 +29,7 @@
 #project .wrap .wrap__boxs .wrap__item span {
   font-size: 80px;
   font-weight: bold;
-  color: #ff4b00;
+  color: #215dff;
 }
 @keyframes scroll-left {
   0% {
@@ -55,12 +55,12 @@
 }
 #project .project-inner .text-area h2 {
   font-size: 20px;
-  color: #ff4b00;
+  color: #215dff;
   margin-bottom: 8px;
 }
 #project .project-inner .text-area h1 {
   font-size: 34px;
-  color: #ff4b00;
+  color: #215dff;
   margin-bottom: 25px;
 }
 #project .project-inner .text-area .arrow-area {
@@ -79,7 +79,7 @@
   cursor: pointer;
 }
 #project .project-inner .text-area .arrow-area .swiper-pagination {
-  color: #ff4b00;
+  color: #215dff;
   top: 45%;
   font-size: 15px;
 }

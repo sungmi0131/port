@@ -1,0 +1,39 @@
+#design {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  padding: 2%;
+  contain: paint;
+}
+#design .design-title {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  font-size: 72px;
+  font-weight: 700;
+  color: #eaeaea;
+  z-index: 10;
+}
+#design .design__wrap {
+  display: flex;
+  width: 200%;
+  gap: 50px;
+  margin-top: 150px;
+  align-items: flex-start;
+}
+#design .design__wrap .design__item {
+  width: 100vw;
+  padding: 180px 120px;
+  flex-shrink: 0;
+}
+#design .design__wrap .design__item h3 {
+  font-size: 28px;
+  color: #2EE6A6;
+  margin-bottom: 16px;
+}
+#design .design__wrap .design__item p {
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ddd;
+}
