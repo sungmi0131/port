@@ -5,7 +5,7 @@
         text-align: center;
 
         .project__title {
-            width: 1600px;
+            width: 1500px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -52,14 +52,14 @@
         }
 
         .reasons__list {
-            padding: 0 50px;
+            padding: 0 3%;
             position: relative;
 
             li {
                 display: flex;
                 align-items: center;
                 border-bottom: 1px solid #ccc;
-                padding: 108px 0;
+                padding: 70px 0;
                 cursor: pointer;
                 position: relative;
 
