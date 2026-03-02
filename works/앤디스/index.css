@@ -234,7 +234,6 @@ header .menu-btn {
   height: 90vh;
   position: relative;
   margin: 0 auto;
-  /* 🔹 Swiper 버튼 */
 }
 #section2 .swipers .swiper-slide {
   display: flex;
@@ -254,7 +253,6 @@ header .menu-btn {
   margin: 0 auto;
   overflow: hidden;
   transition: transform 0.3s ease;
-  /* 🔵 원형 배경 */
 }
 #section2 .swipers .swiper-slide .item .img-wrap img {
   width: 100%;
@@ -269,6 +267,9 @@ header .menu-btn {
 #section2 .swipers .swiper-slide .item .img-wrap .hover-img {
   opacity: 0;
   z-index: 2;
+}
+#section2 .swipers .swiper-slide .item .img-wrap {
+  /* 🔵 원형 배경 */
 }
 #section2 .swipers .swiper-slide .item .img-wrap .circle {
   position: absolute;
@@ -318,6 +319,9 @@ header .menu-btn {
   color: #555;
   font-size: 16px;
   line-height: 1.6;
+}
+#section2 .swipers {
+  /* 🔹 Swiper 버튼 */
 }
 #section2 .swipers .swiper-button-next,
 #section2 .swipers .swiper-button-prev {

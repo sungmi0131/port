@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #project {
   width: 100%;
   margin: 0 auto;
@@ -54,17 +55,26 @@
   padding: 40px;
 }
 #project .project-inner .text-area h2 {
-  font-size: 20px;
+  font-size: 4rem;
   color: #215dff;
   margin-bottom: 8px;
 }
 #project .project-inner .text-area h1 {
-  font-size: 34px;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.3;
   color: #215dff;
   margin-bottom: 25px;
 }
+#project .project-inner .text-area p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 2;
+  word-break: break-all;
+  margin-bottom: 50px;
+}
 #project .project-inner .text-area .arrow-area {
-  width: 50%;
+  width: 80%;
   position: absolute;
   display: flex;
   justify-content: space-around;
@@ -72,16 +82,16 @@
   text-align: center;
 }
 #project .project-inner .text-area .arrow-area img {
-  width: 50%;
+  width: 30%;
   height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
 }
 #project .project-inner .text-area .arrow-area .swiper-pagination {
-  color: #215dff;
+  color: #ffffff;
   top: 45%;
-  font-size: 15px;
+  font-size: 20px;
 }
 #project .project-inner .swiper {
   overflow: hidden;
@@ -103,7 +113,7 @@
   transition: transform 0.3s ease;
 }
 #project .project-inner .swiper .swiper-wrapper .swiper-slide:hover .arrow {
-  right: 20px;
+  right: 25px;
   opacity: 1;
 }
 #project .project-inner .swiper .swiper-wrapper .swiper-slide:hover {
@@ -113,6 +123,7 @@
   position: absolute;
   bottom: 25px;
   left: 25px;
+  color: #000;
 }
 #project .project-inner .swiper .swiper-wrapper .swiper-slide .card-content h3 {
   font-size: 22px;
@@ -127,16 +138,61 @@
   bottom: 20px;
   right: -40px;
   font-size: 50px;
-  color: #fff;
+  color: #000000;
   opacity: 0;
   transition: all 0.4s ease;
 }
-#project .project-inner .swiper .swiper-wrapper .blue {
-  background: linear-gradient(10deg, #3388ff, #6f4bff);
+#project .project-inner .swiper .swiper-wrapper .first {
+  background-image: url(/image/identity-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#project .project-inner .swiper .swiper-wrapper .red {
-  background: linear-gradient(10deg, #f54949, #cc0000);
+#project .project-inner .swiper .swiper-wrapper .second {
+  background-image: url(/image/칠성1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#project .project-inner .swiper .swiper-wrapper .purple {
-  background: linear-gradient(10deg, #b76bff, #8058ff);
+#project .project-inner .swiper .swiper-wrapper .third {
+  background-image: url(/image/당근1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#project .project-inner .swiper .swiper-wrapper .four {
+  background-image: url(/image/에이스침대1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#project .project-inner .swiper .swiper-wrapper .five {
+  background-image: url(/image/우담1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#project .project-inner .swiper .swiper-wrapper .five p {
+  color: #fff;
+}
+#project .project-inner .swiper .swiper-wrapper .five h3 {
+  color: #fff;
+}
+#project .project-inner .swiper .swiper-wrapper .five .arrow {
+  color: #fff;
+}
+#project .project-inner .swiper .swiper-wrapper .six {
+  background-image: url(/image/비디고1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#project .project-inner .swiper .swiper-wrapper .six p {
+  color: #fff;
+}
+#project .project-inner .swiper .swiper-wrapper .six h3 {
+  color: #fff;
+}
+#project .project-inner .swiper .swiper-wrapper .six .arrow {
+  color: #fff;
 }

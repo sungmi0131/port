@@ -74,7 +74,7 @@ button {
   --tit-font-size: 2.94rem;
   --min-font-size: 1rem;
   --line-height: 1.2;
-  --font-family-G: "GmarketSansMedium";
+  --font-family-G: 'GmarketSansMedium';
 }
 
 @media screen and (max-width: 1024px) {

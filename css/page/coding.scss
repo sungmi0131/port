@@ -59,7 +59,7 @@
                 display: flex;
                 align-items: center;
                 border-bottom: 1px solid #ccc;
-                padding: 70px 0;
+                padding: 50px 0;
                 cursor: pointer;
                 position: relative;
 
@@ -119,8 +119,9 @@
 
  
                     img {
-                        width: 220px;
-                        border-radius: 12px;
+                        width: 300px;
+                        height: 100%;
+                        border-radius: 50%;
                         box-shadow: 0 10px 30px rgba(212, 212, 212, 0.25);
                     }
                 }
