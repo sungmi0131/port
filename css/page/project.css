@@ -2,7 +2,7 @@
 #project {
   width: 100%;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 130vh;
   background-color: #000;
 }
 #project .wrap {
@@ -52,16 +52,16 @@
   width: 30%;
   height: 20vh;
   position: relative;
-  padding: 40px;
+  padding: 0 40px;
 }
 #project .project-inner .text-area h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #215dff;
   margin-bottom: 8px;
 }
 #project .project-inner .text-area h1 {
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.3;
   color: #215dff;
   margin-bottom: 25px;
