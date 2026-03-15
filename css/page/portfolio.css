@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Pretendard";
 }
 #profile .profile_inner {
   width: 1600px;

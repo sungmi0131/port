@@ -1,0 +1,392 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+/********************* reset ************************/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.just-c {
+    justify-content: center;
+}
+
+.just-s {
+    justify-content: space-between;
+}
+
+.align-c {
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*********************************************/
+
+body {
+    background-image: url(./image/bgbg.jpg);
+    font-family: 'DungGeunMo';
+}
+
+.wrap {
+
+    max-width: 1420px;
+    margin: auto;
+    position: relative;
+}
+
+/******************* header  */
+header {
+    position: relative;
+}
+
+h1.logo {
+    width: 100%;
+    height: 300px;
+    background-image: url(./image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h1 img {
+    position: absolute;
+    left: 53%;
+    bottom: -76px;
+    transform: translateX(-50%);
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    background-image: url(./image/arrow.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 40px 0;
+}
+
+nav ul li:hover {
+    background-position: center bottom;
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*=========================== header  */
+/********************** main  */
+.intro h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.intro .smmary {
+    text-align: center;
+    line-height: 28px;
+}
+
+.video video {
+    width: 100%;
+}
+
+section {
+    padding-top: 30px;
+}
+
+section.list {
+    position: relative;
+}
+
+article {
+    background-color: rgba(64, 71, 99, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+article figcaption {
+    text-align: center;
+}
+
+
+
+
+/*=========================== main  */
+/********************** footer  */
+footer {
+    height: 200px;
+    background: #000;
+}
+
+
+/* ##################### 모바일 ######################## */
+@media screen and (max-width:600px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 33%;
+    }
+
+    article li {
+        width: 49%;
+    }
+
+    .block {
+        display: none;
+        position: absolute;
+        width: 200px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .endy {
+        display: none;
+        position: absolute;
+        width: 200px;
+        right: -200px;
+        top: -14%;
+    }
+}
+
+
+/* ##################### 태블릿 ######################## */
+@media screen and (min-width:601px) {
+
+    header {
+
+        top: 0;
+        width: 29%;
+        height: 100vh;
+
+        position: fixed;
+    }
+
+    h1.logo {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    article li {
+        width: 33%;
+    }
+
+    .block {
+        display: none;
+        position: absolute;
+        width: 200px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main {
+        margin-left: 29%;
+        width: 69%;
+    }
+
+    .endy {
+        display: none;
+        position: absolute;
+        width: 200px;
+        right: -200px;
+        top: -14%;
+    }
+}
+
+
+/* ##################### 피씨 ######################## */
+@media screen and (min-width:1300px) {
+    .wrap {
+        position: relative;
+        justify-content: flex-end;
+    }
+
+    header {
+        max-width: 1420px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    h1.logo {
+        width: 30%;
+        height: 600px;
+    }
+
+    h1 img {
+        transform: translate(-50%, 30%);
+    }
+
+    nav {
+        width: 69%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav ul li {
+        width: 33%;
+    }
+
+    .block {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: -60px;
+        left: -3%;
+        transform: translateX(-25%);
+        animation: roll-in-left 1.5s both;
+    }
+
+    @keyframes roll-in-left {
+        0% {
+            -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+            opacity: 1;
+        }
+    }
+
+    .intro-contents {
+        display: flex;
+    }
+
+    .smmary,
+    .video {
+        width: 49%;
+    }
+
+    .intro {
+        margin-top: 80px;
+    }
+
+    article li {
+        width: 19%;
+    }
+
+    .endy {
+        display: block;
+        position: absolute;
+        width: 200px;
+        right: -200px;
+        top: -14%;
+        animation: bounce-in-right 1.5s forwards;
+    }
+
+    @keyframes bounce-in-right {
+        0% {
+            -webkit-transform: translateX(600px);
+            transform: translateX(600px);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+            opacity: 0;
+        }
+
+        38% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            opacity: 1;
+        }
+
+        55% {
+            -webkit-transform: translateX(68px);
+            transform: translateX(68px);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+
+        72% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+        }
+
+        81% {
+            -webkit-transform: translateX(32px);
+            transform: translateX(32px);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+
+        90% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+        }
+
+        95% {
+            -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+
+        100% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+        }
+    }
+
+}
