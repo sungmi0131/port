@@ -15,3 +15,19 @@ ScrollTrigger.create({
     pin: true, //고정fixed
     scrub: true, //부드럽게 내려가기
 })
+
+
+document.querySelectorAll('.skill__title h2').forEach(text => {
+    gsap.to(text, {
+        backgroundSize: '100%',
+        scrollTrigger: {
+            trigger: text,
+            start: 'top 80%',
+            end: 'bottom 20%',
+            scrub: true,
+        }
+    })
+})
+
+
+

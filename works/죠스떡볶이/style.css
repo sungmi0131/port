@@ -1,0 +1,474 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+     font-family: "PretendardVariable", Sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 110px;
+    background-image: url(./jowimg/header_bg.png);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+header .container {
+    width: 1536px;
+    margin: auto;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+
+}
+
+nav ul {
+    gap: 100px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    color: #000;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+header h1 img {
+    width: 215px;
+}
+
+header a.brand img {
+    width: 115px;
+}
+
+/*sect1*****************************************/
+.sect1 {
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./jowimg/bgbg.jpg);
+    background-color: #C91518;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
+
+.slogan {
+    text-align: center;
+    position: relative;
+    top: 170px;
+    color: #fff;
+}
+
+.sect1 h2 {
+    margin-bottom: 50px;
+}
+
+.sect1 h2 img {
+    width: 635px;
+}
+
+/***************************************************/
+.sect2 .sect3 .sect4 .sect5 .sect6 .sect7 .sect8 .sect9 {
+
+    height: 800px;
+}
+
+/*sect2******************************************/
+
+.sect2 {
+    background-image: url(./jowimg/bg.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sect2 .container {
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.sect2 .col1 p {
+    color: #FFFFFF;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.sect2 .col1 {
+    width: 420px;
+}
+
+.sect2 .col1 .li {
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.sect2 .col2 {
+    width: 780px;
+    position: relative;
+}
+
+.sect2 .col2 .item {
+    position: absolute;
+    top: 252px;
+    right: 10px;
+}
+
+img.phone1 {
+    width: 100%;
+}
+
+/*sect3***************************************/
+.sect3 {
+    background-image: url(./jowimg/section_bg_01-e1662533114395.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sect3 .container {
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.sect3 .col2 {
+    width: 780px;
+    margin: auto;
+}
+
+.sect3 .col1 {
+    width: 520px;
+}
+
+.sect3 .col1 p {
+    color: #000;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.sect3 .col1 img {
+    padding-top: 30px;
+}
+
+img.phone2 {
+    width: 100%;
+}
+
+/*sect4**********************************/
+.sect4 {
+    background-image: url(./jowimg/bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.sect4 .container {
+    width: 1250px;
+    height: 800px;
+    text-align: left;
+}
+
+
+.sect4 .col1 {
+    width: 455px;
+}
+
+
+.sect4 .col2 {
+    width: 845px;
+    margin: auto;
+    position: relative;
+}
+
+.sect4 .col1 p {
+    color: #FFFFFF;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.sect4 .col1 h3 {
+    color: #fff;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 25px;
+}
+
+.sect4 .col1 img {
+    padding-top: 40px;
+}
+
+img.pict {
+    width: 80%;
+}
+
+/*sect5*************************************/
+.sect5 {
+    background-image: url(./jowimg/bg-1.jpg);
+    padding: 100px 0;
+}
+
+.sect5 .container {
+    width: 1400px;
+    margin: auto;
+
+}
+
+.sect5 .subject1 {
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.sect5 .subject2 {
+    background-image: url(./jowimg/Asset-10-80-1.jpg);
+    margin: 70px;
+}
+
+.sect5 .container .col1 {
+    width: 630px;
+}
+
+.sect5 .col1 p {
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 22px;
+    font-weight: 530;
+    line-height: 1.5em;
+}
+
+.sect5 .subject2 .col3 {
+    position: relative;
+    height: 554px;
+    background-image: url(./jowimg/sale.png), url(./jowimg/Asset-10-80-1.jpg);
+}
+
+.sect5 .subject2 ul.price li {
+    position: absolute;
+}
+
+.sect5 .subject2 ul.price li:nth-child(1) {
+    left: 264px;
+    top: 277px;
+}
+
+.sect5 .subject2 ul.price li:nth-child(2) {
+    left: 426px;
+    top: 323px;
+}
+
+.sect5 .subject2 ul.price li:nth-child(3) {
+    left: 606px;
+    top: 254px;
+}
+
+.sect5 .subject2 ul.price li:nth-child(4) {
+    left: 789px;
+    top: 192px;
+}
+
+.sect5 .subject2 ul.price li:nth-child(5) {
+    left: 954px;
+    top: 180px;
+}
+
+/*sect6********************************************/
+.sect6 {
+    background-color: #FAF1DD;
+
+}
+
+.sect6 .container {
+    width: 1400px;
+    min-height: 2060px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.sect6 .container .col1 p {
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 22px;
+    font-weight: 520;
+    line-height: 1.5em;
+}
+
+.sect6 .img {
+    padding-top: 50px;
+}
+
+.sect6 .img ul {
+    display: flex;
+
+}
+
+/***************************************/
+.sect7 {
+    background-image: url(./jowimg/food_img.png), url(./jowimg/Asset-10-80.jpg);
+    height: 100vh;
+    background-position: center, center;
+    background-size: cover, cover;
+    position: relative;
+}
+
+.sect7 .container {
+    width: 1400px;
+    margin: auto;
+}
+
+.sect7 .container .col1 {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.sect7 .container p {
+    text-align: left;
+    color: #000;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/*sect8*********************************************/
+.sect8 {
+    background-image: url(./jowimg/Asset-22-81.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sect8 .container {
+    width: 1250px;
+    height: 100vh;
+}
+
+.sect8 .container .col1 {
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+}
+
+.sect8 .container h2 img {
+    padding-top: 20px;
+    width: 80%;
+}
+
+.sect8 .container p {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/*sect9*******************************************/
+.sect9 {
+    background-image: url(./jowimg/food.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sect9 .container {
+    width: 1250px;
+    height: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sect9 .container .col1 {
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.sect9 .container .col2 {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.sect9 .container .col1 h2 img {
+    width: 90%;
+}
+
+.sect9 .container .col2 p {
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+/*footer***************************************/
+footer {
+    height: 290px;
+    background-color: #C91518;
+
+}
+
+footer .container {
+    width: 1250px;
+    margin: auto;
+    padding-top: 55px;
+}
+
+footer .container h3 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 20px;
+}
+
+footer .container h4 {
+    padding-top: 25px;
+    text-align: left;
+    color: #F9BE00;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 14px;
+}
+
+footer .container p {
+    padding-top: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "PretendardVariable", Sans-serif;
+    font-size: 14px;
+}

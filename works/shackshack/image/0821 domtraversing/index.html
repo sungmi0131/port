@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css">
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .top {
+            background: #000;
+            color: #fff;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .p20 {
+            padding: 20px;
+        }
+
+        .p10 {
+            padding: 10px;
+        }
+
+        .menu {
+            background: #eee;
+            display: none;
+        }
+
+        .login {
+            background: #ccc;
+            display: none;
+        }
+
+        input[type='text'] {
+            display: block;
+        }
+
+        figure img {
+            width: 100%;
+        }
+
+        h2 {
+            justify-content: space-between;
+            display: flex;
+            background: #000;
+            color: #fff;
+            align-items: center;
+        }
+
+        h2 span {
+            background: #aaa;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 12px;
+            perspective: 100px;
+        }
+
+        h2 span img {
+            width: 24px;
+            transition: .35s;
+        }
+
+        h2 span:hover {
+            background: #777;
+        }
+
+        h2 span.on img {
+            transform: rotateX(180deg);
+        }
+
+        h3 {
+            background: #ccc;
+        }
+
+        /* ------------------------------------ */
+        .product-more {
+            /* display: none; */
+        }
+
+        /* ------------------------------------ */
+        .product-summary {
+            /* position: relative;
+            height: 160px; */
+
+        }
+
+        .product-summary li {
+            /* position: absolute; */
+        }
+
+        /* ------------------------------------ */
+        .product-item {
+            display: flex;
+            flex-wrap: wrap;
+            background: #ccc;
+        }
+
+        .product-item li {
+            padding: 10px;
+            width: 50%;
+            text-align: center;
+        }
+
+        .product-item li.on {
+            background: #000;
+            color: #fff
+        }
+
+        .cart {
+            background: #aaa;
+            text-align: center;
+        }
+
+        .cart a {
+            display: block;
+        }
+
+        .cart.on {
+            background: #000;
+            color: #ffff
+        }
+
+        .more.on {
+            background-color: rgb(127, 239, 245);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top flex">
+            <a href="#" class="menu-icon">MENU</a>
+            <h1>LOGO</h1>
+            <a href="#" class="login-icon">LOGIN</a>
+        </div>
+        <div class="menu p20">
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+            </ul>
+        </div>
+        <div class="login flex p20">
+            <div class="col">
+                <input type="text" placeholder="ID">
+                <input type="text" placeholder="PW">
+            </div>
+            <input type="submit" value="로그인">
+        </div>
+    </header>
+    <div class="product-list">
+        <div class="product">
+            <!--보이는 이미지------------------------------------------------->
+            <figure>
+                <img src="./bag_ (1).jpg" alt="">
+            </figure>
+            <h2>상품 카테고리1 <span class="p10 more"><img src="detail.png" alt=""></span></h2>
+            <!--숨겨있는 내용------------------------------------------------->
+            <div class="product-more">
+                <ul class="product-summary">
+                    <li>
+                        <h3 class="product-name p10">가방-1</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem1 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="product-name p10">가방-2</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="product-name p10">가방-3</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem3 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="product-item">
+                    <li><a href="./bag_ (1).jpg">bag1</a></li>
+                    <li><a href="./bag_ (2).jpg">bag2</a></li>
+                    <li><a href="./bag_ (3).jpg">bag3</a></li>
+                </ul>
+                <div class="cart p10"><a href="#">장바구니 담기</a></div>
+            </div>
+        </div>
+        <div class="product">
+            <figure>
+                <img src="./shoes_ (1).jpg" alt="">
+            </figure>
+            <h2>상품 카테고리2 <span class="p10 more"><img src="detail.png" alt=""></span></h2>
+            <div class="product-more">
+
+                <ul class="product-summary">
+                    <li>
+                        <h3 class="product-name p10">신발-1</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem1 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="product-name p10">신발-2</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="product-name p10">신발-3</h3>
+                        <div class="product-desc p10">
+                            <p>Lorem3 ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam laudantium
+                                delectus
+                                exercitationem temporibus ratione facilis perspiciatis doloribus reprehenderit corporis!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="product-item">
+                    <li><a href="./shoes_ (1).jpg">shoes1</a></li>
+                    <li><a href="./shoes_ (2).jpg">shoes2</a></li>
+                    <li><a href="./shoes_ (3).jpg">shoes3</a></li>
+                </ul>
+                <div class="cart p10"><a href="$">장바구니 담기</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+   
+
+        ////////////////////////////////////////////////////////////
+        $('.more').click(function () {
+
+        })
+        ////////////////////////////////////////////////////////////
+        $('.product-item li a').click(function (e) {
+           
+        })
+
+    </script>
+</body>
+
+</html>
