@@ -95,8 +95,12 @@ section {
   text-align: center;
 }
 #main h1 {
-  font-size: 100px;
+  font-size: 150px;
   color: #215DFF;
+}
+#main p {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .wrap {
