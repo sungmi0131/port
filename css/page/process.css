@@ -127,6 +127,7 @@ P {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin-bottom: 30px;
 }
 .con1 .con1-inner .con1-list2 li {
   width: 700px;
@@ -177,12 +178,13 @@ P {
 }
 .con2 .textBox .con2-list li {
   border: 1px solid #fff;
-  border-radius: 100%;
-  padding: 30px;
-  font-size: 64px;
+  border-radius: 50%;
+  padding: 15%;
+  font-size: 20px;
   font-weight: bold;
-  letter-spacing: -5px;
+  letter-spacing: -1px;
   line-height: 1;
+  margin-bottom: 10%;
 }
 .con2 .textBox p {
   font-size: 34px;
@@ -193,7 +195,7 @@ P {
 
 .con3 {
   width: 100%;
-  min-height: 350vh;
+  height: 450vh;
   background: #000;
   color: #fff;
 }
@@ -202,7 +204,7 @@ P {
   margin: 0 auto;
 }
 .con3 .con3-inner .con3-title {
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 .con3 .con3-inner .refer {
   display: flex;
@@ -237,7 +239,7 @@ P {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 .con3 .con3-inner .refer2 .imgBox {
   width: 800px;
@@ -268,14 +270,6 @@ P {
   margin-bottom: 10%;
   gap: 20%;
 }
-.con3 .con3-inner .refer3 .refer3-con1 {
-  width: 50%;
-  text-align: center;
-}
-.con3 .con3-inner .refer3 .refer3-con2 {
-  width: 50%;
-  text-align: center;
-}
 .con3 .con3-inner .refer3 .imgBox {
   width: 100%;
   height: 500px;
@@ -289,6 +283,7 @@ P {
 .con3 .con3-inner .refer3 .textBox {
   width: 100%;
   text-align: center;
+  margin-top: 30px;
 }
 .con3 .con3-inner .refer3 .textBox h3 {
   font-size: 25px;
@@ -297,20 +292,37 @@ P {
 .con3 .con3-inner .refer3 .textBox p {
   line-height: 1.5;
 }
+.con3 .con3-inner .refer3 .refer3-con1 {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.con3 .con3-inner .refer3 .refer3-con2 {
+  width: 50%;
+  text-align: center;
+}
 .con3 .con3-inner .con3-title2 {
   margin: 100px 0;
 }
 .con3 .con3-inner .con3-w-list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   gap: 10px;
 }
 .con3 .con3-inner .con3-w-list li {
   width: 300px;
-  height: 700px;
-  background: #a0a0a0;
-  border: 1px solid #0f0;
+}
+.con3 .con3-inner .con3-w-list li:nth-child(2) img {
+  width: 300px;
+  height: 830px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.con3 .con3-inner .con3-w-list li:nth-child(5) img {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .con3 .con3-inner .con3-w-list li img {
   width: 100%;
@@ -352,29 +364,40 @@ P {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000;
-}
-.con5 .con5-inner .con5-img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .con5 .con5-inner .color {
-  display: flex;
-  flex-direction: column;
   margin: 10% 5% 12%;
 }
 .con5 .con5-inner .color .color-title {
   margin-bottom: 50px;
 }
 .con5 .con5-inner .font {
-  display: flex;
-  flex-direction: column;
   margin: 10% 5% 12%;
 }
 .con5 .con5-inner .font .font-title {
   margin-bottom: 50px;
+}
+.con5 .con5-inner .logo {
+  margin: 10% 5% 12%;
+}
+.con5 .con5-inner .logo .logo-title {
+  margin-bottom: 50px;
+}
+.con5 .con5-inner .logo .stamp-txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.con5 .con5-inner .logo .stamp-txt .con5-img {
+  width: 80%;
+}
+.con5 .con5-inner .logo .stamp-txt .con5-img .img1 {
+  width: 50%;
+}
+.con5 .con5-inner .logo .stamp-txt p {
+  text-align: left;
+  width: 50%;
+  line-height: 1.6;
 }
 
 .con6 {

@@ -639,8 +639,14 @@ body {
         color: #fff;
 
         .title {
-            font-size: 38px;
+            font-size: 28px;
 
+        }
+
+        .con3-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
         }
 
         ul {

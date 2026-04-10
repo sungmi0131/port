@@ -553,7 +553,6 @@ section {
     padding-top: 150px;
     height: 130vh;
     box-sizing: border-box;
-
     color: #fff;
 
     .inner {
@@ -569,7 +568,6 @@ section {
             width: 60%;
             line-height: 1.4;
             transform: translate3d(0, 0, 0);
-
 
 
             p {
@@ -685,7 +683,7 @@ section {
             font-size: 80px;
             font-weight: 400;
             letter-spacing: -1px;
-            line-height: 1.2;
+            line-height: 3;
         }
     }
 }
@@ -831,8 +829,14 @@ section {
         z-index: 2;
 
         .title {
-            font-size: 18px;
+            font-size: 28px;
 
+        }
+
+        .con3-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
         }
 
         ul {

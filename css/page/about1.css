@@ -521,7 +521,12 @@ body {
   color: #fff;
 }
 .con3 .textWrap .title {
-  font-size: 38px;
+  font-size: 28px;
+}
+.con3 .textWrap .con3-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
 }
 .con3 .textWrap ul li {
   font-size: 100px;

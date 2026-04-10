@@ -418,7 +418,7 @@ section {
   font-size: 80px;
   font-weight: 400;
   letter-spacing: -1px;
-  line-height: 1.2;
+  line-height: 3;
 }
 
 .con2 .title {
@@ -533,7 +533,12 @@ section {
   z-index: 2;
 }
 .con3 .textWrap .title {
-  font-size: 18px;
+  font-size: 28px;
+}
+.con3 .textWrap .con3-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
 }
 .con3 .textWrap ul li {
   font-size: 100px;
