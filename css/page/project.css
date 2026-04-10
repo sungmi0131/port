@@ -2,7 +2,7 @@
 #project {
   width: 100%;
   margin: 0 auto;
-  min-height: 130vh;
+  min-height: 100vh;
   background-color: #000;
 }
 #project .wrap {
@@ -45,12 +45,12 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  height: 50vh;
+  height: 100vh;
   margin: 0 auto;
+  padding-top: 100px;
 }
 #project .project-inner .text-area {
   width: 30%;
-  height: 20vh;
   position: relative;
   padding: 0 40px;
 }
@@ -99,6 +99,7 @@
 }
 #project .project-inner .swiper .swiper-wrapper {
   display: flex;
+  align-items: center;
   transition: transform 0.6s ease;
 }
 #project .project-inner .swiper .swiper-wrapper .swiper-slide {

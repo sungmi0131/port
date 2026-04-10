@@ -6,6 +6,7 @@
 
 
 
+@import url(./css/page/visual.css);
 @import url(./css/page/header.css);
 @import url(./css/page/home.css);
 @import url(./css/page/flow.css);
@@ -16,6 +17,7 @@
 @import url(./css/page/project.css);
 @import url(./css/page/footer.css);
 @import url(./css/page/coding.css);
+@import url(./css/page/arch.css);
 
 
 
