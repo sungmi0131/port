@@ -309,7 +309,7 @@ section {
 
 .visual {
   padding-top: 150px;
-  height: 150vh;
+  height: 130vh;
   box-sizing: border-box;
   color: #fff;
 }
@@ -347,7 +347,7 @@ section {
   }
 }
 .visual .inner .textBox .title {
-  font-size: 130px;
+  font-size: 90px;
 }
 .visual .inner .textBox .title .en2 {
   font-size: 220px;

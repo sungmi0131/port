@@ -184,12 +184,12 @@ P {
 
 .con3 {
   width: 100%;
-  height: 210vh;
+  min-height: 210vh;
   background: #000;
   color: #fff;
 }
 .con3 .con3-inner {
-  min-width: 1560px;
+  min-width: 1460px;
   margin: 0 auto;
 }
 .con3 .con3-inner .con3-title {

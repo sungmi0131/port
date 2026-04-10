@@ -102,13 +102,13 @@ body {
   }
 }
 .visual .inner .textBox .title {
-  font-size: 180px;
+  font-size: 90px;
 }
 .visual .inner .textBox .title .en2 {
-  font-size: 220px;
+  font-size: 180px;
 }
 .visual .inner .textBox .subTitle {
-  font-size: 30px;
+  font-size: 24px;
   margin: 30px 0;
 }
 .visual .inner .aniBox {
@@ -265,8 +265,9 @@ body {
   position: absolute;
   top: 80px;
   left: 100px;
-  font-size: 120px;
+  font-size: 90px;
   z-index: 3;
+  margin-bottom: 20px;
 }
 #design .design__wrap {
   position: absolute;
@@ -670,4 +671,23 @@ body {
 }
 #contact .contact__list ul .c_right {
   text-align: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .con3 .textWrap {
+    width: 85%;
+  }
+  .con3 .textWrap ul li {
+    font-size: 12vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .con3 .textWrap ul li.en2 {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .con3.motion .simply-scroll .simply-scroll-clip {
+    transform: rotate(10deg) translate(20%, 300px) scale(1.2);
+  }
 }

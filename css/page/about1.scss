@@ -115,15 +115,15 @@ body {
             }
 
             .title {
-                font-size: 180px;
+                font-size: 90px;
 
                 .en2 {
-                    font-size: 220px;
+                    font-size: 180px;
                 }
             }
 
             .subTitle {
-                font-size: 30px;
+                font-size: 24px;
                 margin: 30px 0;
             }
         }
@@ -316,8 +316,9 @@ body {
         position: absolute;
         top: 80px;
         left: 100px;
-        font-size: 120px;
+        font-size: 90px;
         z-index: 3;
+        margin-bottom: 20px;
     }
 
     .design__wrap {
@@ -636,7 +637,7 @@ body {
         transform: translate(-50%, -50%);
         z-index: 2;
         color: #fff;
-        
+
         .title {
             font-size: 38px;
 
@@ -790,29 +791,29 @@ body {
     color: #000;
 
     .footer-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-      h2 {
-        font-size: 180px;
-        font-weight: 700;
-        margin-top: 200px;
-        text-align: center;
-        color: #000;
-      }
-
-      .stamp {
-        width: 200px;
-        height: 200px;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+        h2 {
+            font-size: 180px;
+            font-weight: 700;
+            margin-top: 200px;
+            text-align: center;
+            color: #000;
         }
-      }
+
+        .stamp {
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
 
     .contact__list {
@@ -838,3 +839,42 @@ body {
     }
 }
 
+
+@media screen and (max-width:1024px) {
+    .con3 {
+        .textWrap {
+            width: 85%;
+
+            ul {
+                li {
+                    font-size: 12vw;
+                }
+            }
+        }
+    }
+
+   
+}
+
+@media screen and (max-width:500px) {
+    .con3 {
+        .textWrap {
+            ul {
+                li.en2 {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .con3.motion {
+        .simply-scroll {
+            .simply-scroll-clip {
+                transform: rotate(10deg) translate(20%, 300px) scale(1.2);
+            }
+        }
+    }
+}
