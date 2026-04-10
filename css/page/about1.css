@@ -629,7 +629,6 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  color: #000;
 }
 #contact .footer-title {
   display: flex;
@@ -638,7 +637,7 @@ body {
   align-items: center;
 }
 #contact .footer-title h2 {
-  font-size: 180px;
+  font-size: 160px;
   font-weight: 700;
   margin-top: 200px;
   text-align: center;
@@ -665,7 +664,7 @@ body {
   margin: auto 0;
 }
 #contact .contact__list ul p {
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2;
   font-size: 20px;
 }

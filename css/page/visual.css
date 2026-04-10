@@ -28,7 +28,9 @@
   overflow: hidden;
 }
 .visual .subText {
+  font-size: 18px;
   margin-left: 20%;
+  line-height: 1.6;
 }
 .visual .scroll {
   position: fixed;

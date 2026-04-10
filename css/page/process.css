@@ -75,6 +75,15 @@ P {
 .main .main-title h3 {
   font-size: 100px;
   color: #215DFF;
+  margin-bottom: 30px;
+}
+.main .main-title p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.main .main-title .main-subp {
+  font-size: 18px;
 }
 
 .con1 {
@@ -120,7 +129,7 @@ P {
   gap: 30px;
 }
 .con1 .con1-inner .con1-list2 li {
-  width: 500px;
+  width: 700px;
   height: 500px;
   background: #a0a0a0;
 }
@@ -184,7 +193,7 @@ P {
 
 .con3 {
   width: 100%;
-  min-height: 210vh;
+  min-height: 350vh;
   background: #000;
   color: #fff;
 }
@@ -248,6 +257,44 @@ P {
   margin-bottom: 20px;
 }
 .con3 .con3-inner .refer2 .textBox p {
+  line-height: 1.5;
+}
+.con3 .con3-inner .refer3 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+  gap: 20%;
+}
+.con3 .con3-inner .refer3 .refer3-con1 {
+  width: 50%;
+  text-align: center;
+}
+.con3 .con3-inner .refer3 .refer3-con2 {
+  width: 50%;
+  text-align: center;
+}
+.con3 .con3-inner .refer3 .imgBox {
+  width: 100%;
+  height: 500px;
+}
+.con3 .con3-inner .refer3 .imgBox img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.con3 .con3-inner .refer3 .textBox {
+  width: 100%;
+  text-align: center;
+}
+.con3 .con3-inner .refer3 .textBox h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.con3 .con3-inner .refer3 .textBox p {
   line-height: 1.5;
 }
 .con3 .con3-inner .con3-title2 {
@@ -372,6 +419,8 @@ P {
   min-height: 100vh;
   margin: 0 auto;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 #contact .footer-title {
   display: flex;
@@ -380,7 +429,7 @@ P {
   align-items: center;
 }
 #contact .footer-title h2 {
-  font-size: 180px;
+  font-size: 160px;
   font-weight: 700;
   margin-top: 200px;
   text-align: center;
