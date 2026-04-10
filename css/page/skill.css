@@ -11,10 +11,10 @@
   margin: 0 auto;
   text-transform: uppercase;
   color: #fff;
-  padding: 0 3%;
+  padding: 0 2%;
 }
 .skills .textBox h2 {
-  font-size: 60px;
+  font-size: 90px;
   letter-spacing: -5px;
   margin-bottom: 5px;
 }
@@ -63,6 +63,8 @@
 }
 .skills .list li .box img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .skills .list li .box h3 {
   margin-top: 20%;

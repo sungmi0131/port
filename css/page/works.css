@@ -936,3 +936,106 @@ section {
 #contact .contact__list ul .c_right {
   text-align: end;
 }
+
+@media screen and (max-width: 1650px) {
+  .con3.motion .btnWrap {
+    right: 10%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .visual {
+    padding-top: 120px;
+  }
+  .visual .inner {
+    width: 90%;
+  }
+  .visual .inner .textBox {
+    transform: translate(0px, 0px);
+  }
+  .visual .inner .textBox .title {
+    font-size: 10vw;
+  }
+  .visual .inner .textBox .title .en2 {
+    font-size: 13vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .visual .inner .textBox {
+    width: 50%;
+  }
+  .visual .inner .textBox .title {
+    font-size: 20vw;
+  }
+  .visual .inner .textBox .title .en2 {
+    font-size: 23vw;
+  }
+  .visual .inner .aniBox {
+    bottom: 10%;
+  }
+  .con1 .title h2 {
+    font-size: 7vw;
+  }
+  .con2 .title {
+    font-size: 18vw;
+  }
+  .con2 .workList {
+    width: 90%;
+  }
+  .con3 .textWrap {
+    width: 85%;
+  }
+  .con3 .textWrap ul li {
+    font-size: 12vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .visual .inner .textBox {
+    padding-left: 5px;
+    margin-bottom: 30px;
+  }
+  .visual .inner .textBox .title .en2 {
+    margin-left: -25px;
+  }
+  .visual .inner .textBox .subTitle {
+    font-size: 25px;
+    margin: 0 0 30px;
+  }
+  .visual .inner .textBox .text {
+    width: 50%;
+  }
+  .visual .inner .aniBox {
+    width: 300px;
+    height: 300px;
+    margin-top: 460px;
+    bottom: -20%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .visual {
+    padding-top: 110px;
+    height: 70vh;
+  }
+  .visual .inner .textBox {
+    width: 100%;
+  }
+  .visual .inner .textBox .title .en2 {
+    margin-left: -20px;
+  }
+  .visual .inner .textBox .subTitle {
+    font-size: 20px;
+  }
+  .visual .inner .textBox .text {
+    width: 100%;
+  }
+  .visual .inner .aniBox {
+    display: none;
+  }
+  .con3 .textWrap ul li.en2 {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .con3.motion .simply-scroll .simply-scroll-clip {
+    transform: rotate(10deg) translate(20%, 300px) scale(1.2);
+  }
+}

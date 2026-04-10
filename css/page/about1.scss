@@ -840,7 +840,42 @@ body {
 }
 
 
+
+@media screen and (max-width:1300px) {
+    .visual {
+        padding-top: 120px;
+
+        .inner {
+            width: 90%;
+
+            .textBox {
+                transform: translate(0px, 0px);
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1024px) {
+    .visual {
+        .inner {
+            .textBox {
+                width: 50%;
+
+                .title {
+                    font-size: 20vw;
+
+                    .en2 {
+                        font-size: 23vw;
+                    }
+                }
+            }
+
+            .aniBox {
+                bottom: 10%;
+            }
+        }
+    }
+
     .con3 {
         .textWrap {
             width: 85%;
@@ -852,11 +887,111 @@ body {
             }
         }
     }
+}
 
-   
+@media screen and (max-width:800px) {
+    .visual {
+        .inner {
+            .textBox {
+                padding-left: 5px;
+                margin-bottom: 30px;
+
+                .title {
+                    .en2 {
+                        margin-left: -25px;
+                    }
+                }
+
+                .subTitle {
+                    font-size: 25px;
+                    margin: 0 0 30px;
+                }
+
+                .text {
+                    width: 50%;
+                }
+            }
+
+            .aniBox {
+                width: 300px;
+                height: 300px;
+                margin-top: 460px;
+                bottom: -20%;
+            }
+        }
+    }
+
+    .con3 {
+        .btnWrap {
+            a {
+                &::before {
+                    display: none;
+                }
+
+                &:hover {
+                    border-color: #fff;
+                }
+
+                img {
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .con3.motion {
+        .simply-scroll {
+            .simply-scroll-clip {
+                transform: rotate(10deg) translate(20%, 400px) scale(1.2);
+            }
+        }
+    }
+
+    .simply-scroll {
+        .simply-scroll-clip {
+            .simply-scroll-list {
+                li {
+                    width: 200px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:500px) {
+    .visual {
+        padding-top: 110px;
+        height: 70vh;
+
+        .inner {
+            .textBox {
+                width: 100%;
+
+                .title {
+                    .en2 {
+                        margin-left: -20px;
+                    }
+                }
+
+                .subTitle {
+                    font-size: 20px;
+                }
+
+                .text {
+                    width: 100%;
+                }
+
+            }
+
+            .aniBox {
+                display: none;
+            }
+        }
+    }
+
     .con3 {
         .textWrap {
             ul {
@@ -866,7 +1001,6 @@ body {
             }
         }
     }
-
 }
 
 @media screen and (max-width:400px) {

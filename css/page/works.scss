@@ -988,7 +988,7 @@ section {
 
         .text-area {
             width: 30%;
-            
+
             position: relative;
             padding: 40px;
 
@@ -1281,30 +1281,30 @@ section {
     display: flex;
     flex-direction: column;
 
-   .footer-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    .footer-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-      h2 {
-        font-size: 180px;
-        font-weight: 700;
-        margin-top: 200px;
-        text-align: center;
-        color: #000;
-      }
-
-      .stamp {
-        width: 200px;
-        height: 200px;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+        h2 {
+            font-size: 180px;
+            font-weight: 700;
+            margin-top: 200px;
+            text-align: center;
+            color: #000;
         }
-      }
+
+        .stamp {
+            width: 200px;
+            height: 200px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
 
     .contact__list {
@@ -1325,6 +1325,180 @@ section {
 
             .c_right {
                 text-align: end;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1650px) {
+
+    .con3.motion {
+        .btnWrap {
+            right: 10%;
+        }
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .visual {
+        padding-top: 120px;
+
+        .inner {
+            width: 90%;
+
+            .textBox {
+                transform: translate(0px, 0px);
+
+                .title {
+                    font-size: 10vw;
+
+                    .en2 {
+                        font-size: 13vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .visual {
+        .inner {
+            .textBox {
+                width: 50%;
+
+                .title {
+                    font-size: 20vw;
+
+                    .en2 {
+                        font-size: 23vw;
+                    }
+                }
+            }
+
+            .aniBox {
+                bottom: 10%;
+            }
+        }
+    }
+
+    .con1 {
+        .title {
+
+            h2 {
+                font-size: 7vw;
+            }
+        }
+    }
+
+    .con2 {
+        .title {
+            font-size: 18vw;
+        }
+
+        .workList {
+            width: 90%;
+        }
+    }
+
+    .con3 {
+        .textWrap {
+            width: 85%;
+
+            ul {
+                li {
+                    font-size: 12vw;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .visual {
+        .inner {
+            .textBox {
+                padding-left: 5px;
+                margin-bottom: 30px;
+
+                .title {
+                    .en2 {
+                        margin-left: -25px;
+                    }
+                }
+
+                .subTitle {
+                    font-size: 25px;
+                    margin: 0 0 30px;
+                }
+
+                .text {
+                    width: 50%;
+                }
+            }
+
+            .aniBox {
+                width: 300px;
+                height: 300px;
+                margin-top: 460px;
+                bottom: -20%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .visual {
+        padding-top: 110px;
+        height: 70vh;
+
+        .inner {
+            .textBox {
+                width: 100%;
+
+                .title {
+                    .en2 {
+                        margin-left: -20px;
+                    }
+                }
+
+                .subTitle {
+                    font-size: 20px;
+                }
+
+                .text {
+                    width: 100%;
+                }
+
+            }
+
+            .aniBox {
+                display: none;
+            }
+        }
+    }
+
+
+    .con3 {
+        .textWrap {
+            ul {
+                li.en2 {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .con3.motion {
+        .simply-scroll {
+            .simply-scroll-clip {
+                transform: rotate(10deg) translate(20%, 300px) scale(1.2);
             }
         }
     }

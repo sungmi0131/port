@@ -10,10 +10,10 @@
         margin: 0 auto;
         text-transform: uppercase;
         color: #fff;
-        padding: 0 3%;
+        padding: 0 2%;
 
         h2 {
-            font-size: 60px;
+            font-size: 90px;
             letter-spacing: -5px;
             margin-bottom: 5px;
 
@@ -73,6 +73,7 @@
 
                 img {
                     width: 100%;
+                    object-fit: cover;
                 }
 
                 h3 {
@@ -103,4 +104,9 @@
             }
         }
     }
+}
+
+@media screen and (max-width:1024px) {
+
+
 }
