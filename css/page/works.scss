@@ -182,172 +182,7 @@ section {
     font-size: 16px;
     z-index: 1;
 
-    // .con01 {
-    //     padding: 150px 0 500px;
-
-    //     .inner {
-    //         padding: 150px 0 50px;
-    //         box-sizing: border-box;
-
-
-    //         .maintextbox {
-    //             margin-bottom: 50px;
-    //             padding: 20px 100px;
-
-    //             h2 {
-    //                 color: rgba(0, 0, 0, .2);
-    //                 font-size: 150px;
-    //                 margin-bottom: 20px;
-    //                 background-clip: text;
-    //                 background-repeat: no-repeat;
-    //                 transition: .5s;
-    //                 background-size: 0%;
-    //                 background-image: linear-gradient(to top, #215dff 0%, #215dff 100%);
-    //                 -webkit-background-clip: text;
-    //                 -webkit-text-fill-color: transparent;
-    //             }
-
-    //             .txt {
-    //                 color: #b4b4b4;
-    //                 margin-bottom: 50px;
-    //             }
-    //         }
-
-    //         .listbox {
-    //             perspective: 900px;
-
-    //             .box {
-    //                 background: #fff;
-    //                 margin-bottom: 100px;
-    //                 border-radius: 10px;
-    //                 padding: 70px 50px 0;
-    //                 position: -webkit-sticky;
-    //                 position: sticky;
-    //                 top: 100px;
-    //                 filter: brightness(1);
-
-
-    //                 .topbox {
-
-    //                     display: flex;
-    //                     justify-content: space-between;
-    //                     border-bottom: 1px solid #888;
-    //                     padding-bottom: 20px;
-
-    //                     h3 {
-    //                         font-size: 48px;
-    //                     }
-
-    //                 }
-
-    //                 .bottombox {
-    //                     display: flex;
-    //                     justify-content: space-between;
-    //                     align-items: center;
-
-
-    //                     .num {
-    //                         font-size: 300px;
-    //                         font-weight: 600;
-    //                     }
-
-
-    //                     .textbox {
-    //                         width: 80%;
-    //                         padding: 100px 50px 0;
-
-    //                         .tit {
-    //                             font-size: 28px;
-    //                             font-weight: 500;
-    //                             color: #353535;
-    //                             margin-bottom: 30px;
-    //                         }
-
-    //                         .txt {
-    //                             color: #646464;
-    //                             margin-bottom: 50px;
-    //                         }
-
-
-    //                     }
-
-    //                     .imgbox {
-    //                         width: 50%;
-    //                         height: 30%;
-
-    //                         img {
-    //                             width: 100%;
-    //                             height: 350px;
-    //                             object-fit: cover;
-    //                         }
-    //                     }
-
-    //                     .button {
-    //                         display: flex;
-    //                         gap: 30px;
-    //                         margin-left: 50px;
-
-    //                         .btn {
-    //                             display: inline-block;
-    //                             padding: 14px 30px;
-    //                             background-color: #215dff;
-    //                             color: #fff;
-    //                             text-decoration: none;
-    //                             border-radius: 25px;
-    //                             font-size: 18px;
-    //                             font-weight: 600;
-    //                             transition: all 0.3s ease;
-    //                             margin-bottom: 4%;
-
-    //                             &:hover {
-    //                                 background-color: #215dff;
-    //                                 transform: translateY(-2px);
-    //                             }
-    //                         }
-    //                     }
-    //                 }
-
-
-    //             }
-
-    //             .a {
-    //                 .num {
-    //                     color: #ff764a;
-    //                 }
-    //             }
-
-    //             .b {
-    //                 .num {
-    //                     color: #aaa8ef;
-    //                 }
-    //             }
-
-    //             .c {
-    //                 .num {
-    //                     color: #ffb84f;
-    //                 }
-    //             }
-
-    //             .d {
-    //                 .num {
-    //                     color: #79da20;
-    //                 }
-    //             }
-
-    //             .e {
-    //                 .num {
-    //                     color: #ff4f4f;
-    //                 }
-    //             }
-
-    //             .f {
-    //                 .num {
-    //                     color: #ffb84f;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+    
     .section01 .cloneWrap {
         background-color: #5f5c53;
         color: #fff;
@@ -363,7 +198,7 @@ section {
 
     .section03 .cloneWrap {
 
-        background-color: #a0873d;
+        background-color: #202020;
 
         color: #fff;
 
@@ -371,7 +206,7 @@ section {
 
     .section04 .cloneWrap {
 
-        background-color: #f0c133;
+        background-color: #5f5c53;
 
         color: #000000;
 
@@ -379,7 +214,7 @@ section {
 
     .section05 .cloneWrap {
 
-        background-color: #156ea8;
+        background-color: #215dff;
 
         color: #fff;
 
@@ -387,7 +222,7 @@ section {
 
     .section06 .cloneWrap {
 
-        background-color: #5f5c53;
+        background-color: #c0c0c0;
 
         color: #000000;
 
@@ -444,7 +279,7 @@ section {
 
                 .tit {
                     font-size: 120px;
-                    line-height: 0.9;
+                    line-height: 1.2;
                     margin-bottom: 85px;
 
                     span {
@@ -460,7 +295,7 @@ section {
                     }
                 }
 
-                .txtBox {
+                .titBox {
                     width: 60%;
                     line-height: 1.5;
 
@@ -595,10 +430,10 @@ section {
             }
 
             .title {
-                font-size: 90px;
+                font-size: 60px;
 
                 .en2 {
-                    font-size: 220px;
+                    font-size: 200px;
                 }
             }
 

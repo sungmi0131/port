@@ -176,19 +176,19 @@ section {
   color: #fff;
 }
 .wrap .section03 .cloneWrap {
-  background-color: #a0873d;
+  background-color: #202020;
   color: #fff;
 }
 .wrap .section04 .cloneWrap {
-  background-color: #f0c133;
+  background-color: #5f5c53;
   color: #000000;
 }
 .wrap .section05 .cloneWrap {
-  background-color: #156ea8;
+  background-color: #215dff;
   color: #fff;
 }
 .wrap .section06 .cloneWrap {
-  background-color: #5f5c53;
+  background-color: #c0c0c0;
   color: #000000;
 }
 .wrap .section06 .cloneWrap::after {
@@ -236,7 +236,7 @@ section {
 }
 .wrap .cloneWrap .contBox li.right .tit {
   font-size: 120px;
-  line-height: 0.9;
+  line-height: 1.2;
   margin-bottom: 85px;
 }
 .wrap .cloneWrap .contBox li.right .tit span {
@@ -247,26 +247,26 @@ section {
   animation: slide_up 0.4s cubic-bezier(0.5, 0, 0.5, 1) both;
   animation-delay: calc(100ms * var(--char-index));
 }
-.wrap .cloneWrap .contBox li.right .txtBox {
+.wrap .cloneWrap .contBox li.right .titBox {
   width: 60%;
   line-height: 1.5;
 }
-.wrap .cloneWrap .contBox li.right .txtBox .eng {
+.wrap .cloneWrap .contBox li.right .titBox .eng {
   font-size: 26px;
   line-height: 1.2;
   margin-bottom: 30px;
 }
-.wrap .cloneWrap .contBox li.right .txtBox .kor {
+.wrap .cloneWrap .contBox li.right .titBox .kor {
   font-size: 15px;
   margin-bottom: 20px;
   letter-spacing: -1px;
 }
-.wrap .cloneWrap .contBox li.right .txtBox .skill li {
+.wrap .cloneWrap .contBox li.right .titBox .skill li {
   margin-bottom: 10px;
   position: relative;
   padding-left: 20px;
 }
-.wrap .cloneWrap .contBox li.right .txtBox .skill li::before {
+.wrap .cloneWrap .contBox li.right .titBox .skill li::before {
   content: "";
   width: 5px;
   height: 5px;
@@ -347,10 +347,10 @@ section {
   }
 }
 .visual .inner .textBox .title {
-  font-size: 90px;
+  font-size: 60px;
 }
 .visual .inner .textBox .title .en2 {
-  font-size: 220px;
+  font-size: 200px;
 }
 .visual .inner .textBox .subTitle {
   font-size: 30px;
