@@ -91,7 +91,7 @@ P {
   height: 150vh;
 }
 .con1 .con1-inner {
-  min-width: 1460px;
+  width: 1460px;
   margin: 0 auto;
 }
 .con1 .con1-inner .con1-title {
@@ -200,7 +200,7 @@ P {
   color: #fff;
 }
 .con3 .con3-inner {
-  min-width: 1460px;
+  width: 1460px;
   margin: 0 auto;
 }
 .con3 .con3-inner .con3-title {
@@ -316,8 +316,8 @@ P {
 .con3 .con3-inner .con3-w-list li:nth-child(2) img {
   width: 300px;
   height: 830px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .con3 .con3-inner .con3-w-list li:nth-child(5) img {
   height: 200px;
@@ -485,4 +485,10 @@ P {
 }
 #contact .contact__list ul .c_right {
   text-align: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .con3 {
+    height: 550vh;
+  }
 }

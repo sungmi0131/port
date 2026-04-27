@@ -97,7 +97,7 @@ P {
     height: 150vh;
 
     .con1-inner {
-        min-width: 1460px;
+        width: 1460px;
         margin: 0 auto;
 
         .con1-title {
@@ -223,7 +223,7 @@ P {
     color: #fff;
 
     .con3-inner {
-        min-width: 1460px;
+        width: 1460px;
         margin: 0 auto;
 
 
@@ -373,7 +373,7 @@ P {
                     img {
                         width: 300px;
                         height: 830px;
-                        object-fit: contain;
+                        object-fit: cover;
                     }
                 }
 
@@ -589,5 +589,14 @@ P {
                 text-align: end;
             }
         }
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .con3{
+        height: 550vh;
+        
     }
 }
